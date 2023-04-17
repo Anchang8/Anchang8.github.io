@@ -169,9 +169,24 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  education:
+    defaults:
+      layout: post
+    output: true
+    permalink: /education/:path/
   projects:
     output: true
     permalink: /projects/:path/
+  services:
+    defaults:
+      layout: post
+    output: true
+    permalink: /services/:path/
+  honors:
+    defaults:
+      layout: post
+    output: true
+    permalink: /honors/:path/
 
 news:
   enabled: true
