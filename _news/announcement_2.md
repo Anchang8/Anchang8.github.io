@@ -4,4 +4,4 @@ date: 2023-03-30
 inline: true
 ---
 
-📝 One paper is in a minor-revision process to Neurocomputing (IF=5.779).
+📝 One paper is in a minor-revision process to <b>Neurocomputing</b> (IF=<b>5.779</b>).
