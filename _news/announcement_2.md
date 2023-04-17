@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-04-13
+date: 2023-03-30
 inline: true
 ---
 
-📝 One paper is in a minor-revision process to Advanced Intelligent Systems.
+📝 One paper is in a minor-revision process to Neurocomputing (IF=5.779).
