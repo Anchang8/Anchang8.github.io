@@ -230,7 +230,19 @@
         <div class="author">
         
 
-        
+        Yun* Hyeok, Chang-Hyeon* An, Hyundong Jang, Kyeongrae Cho, and
+          <span class="more-authors" title="click to view 6 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '6 more authors' ? 'Jeong-Sik Lee, Seungjoon Eom, Choong-Ki Kim, Min-Soo Yoo, Hyun-Chul Choi, Rock-Hyun Baek' : '6 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">6 more authors</span>
              (*equal contribution)
         </div>
 
